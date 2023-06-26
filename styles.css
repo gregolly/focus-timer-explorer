@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #121214;
+    height: 100vh;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
+
+.timer {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper #form {
+    display: flex;
+    gap: 16px;
+}
+
+.wrapper .input-minutes,
+.wrapper .input-seconds {
+    padding: 20px;
+    border: none;
+    background: rgba(66, 211, 255, 0.13);
+    display: block;
+    width: 280px;
+    border-radius: 6px;
+    color: #fff;
+}
+
+.wrapper input[type='submit'] {
+    width: 120px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background-color: #fff;
+    border: none;
+    border-radius: 6px;
+}
+
+.wrapper .time {
+    display: flex;
+    color: #FFF;
+    text-align: center;
+    font-size: 88px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+.wrapper .controls {
+    display: flex;
+    padding: 22px 40px;
+    gap: 32px;
+
+    border-radius: 9999px;
+    background: rgba(66, 211, 255, 0.13);
+}
+
+.volume {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
